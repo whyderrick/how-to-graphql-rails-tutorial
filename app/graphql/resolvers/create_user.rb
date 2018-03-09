@@ -1,6 +1,6 @@
 class Resolvers::CreateUser < GraphQL::Function
   AuthProviderInput = GraphQL::InputObjectType.define do
-    name "AuthProviderSignupDate"
+    name "AuthProviderSignupData"
 
     argument :email, Types::AuthProviderEmailInput
   end
